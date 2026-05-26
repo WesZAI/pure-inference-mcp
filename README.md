@@ -37,3 +37,32 @@ python main.py
 
 Why pay for premium cloud APIs to write standard boilerplate? Since MCP provides a standardized protocol, you can route multiple LLMs to the exact same local server and `AI.md` file.
 
+### The Developer Hybrid Workflow:
+1. **The 70% (Free & Local):** Select a local **Mistral 24B** or **Gemma** in your UI dropdown for day-to-day coding. Let it execute tools and log its progress in `AI.md` for free.
+2. **The 30% (Premium Brain):** When hitting a complex architectural wall, switch the dropdown to **Gemini/Claude**. 
+3. **The Sync:** The premium model reads the updated `AI.md`, instantly understands exactly what the local model did, resolves the issue using raw inference, and syncs back.
+4. **The Purge:** Clear the chat window. Your context is fresh, your token usage drops back to near-zero.
+
+---
+
+## 📁 File Structure
+- `main.py` -> The lightweight local MCP server exposing native tools.
+- `AI.md` -> The compressed project memory (read and updated directly by the LLMs).
+
+---
+
+## 🛠️ Quick Start
+
+1. Install dependencies:
+```bash
+pip install mcp
+```
+
+2. Run the server (or connect it directly to your VS Code / Claude / Gemini configuration):
+```bash
+python main.py
+```
+
+## 📜 License
+This project is licensed under the MIT License - see the LICENSE file for details. Created by Gabriela Berger.
+
