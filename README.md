@@ -32,3 +32,8 @@ python main.py
 2. **Work:** Code directly with the LLM.
 3. **Save & Compress:** Before closing the chat, the LLM calls `update_memory` to write a dense, hyper-focused summary back into `AI.md`.
 4. **Purge:** Clear the chat window. Your context is fresh, your token usage drops back to near-zero.
+
+## 🧠 The Multi-Model Matrix (The 70/30 Rule)
+
+Why pay for premium cloud APIs to write standard boilerplate? Since MCP provides a standardized protocol, you can route multiple LLMs to the exact same local server and `AI.md` file.
+
