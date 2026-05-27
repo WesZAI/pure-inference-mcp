@@ -64,5 +64,12 @@ python main.py
 ```
 
 ## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details. Created by Gabriela Berger.
+This project is licensed under the **WesZAI Pure Inference MCP License** – see the [LICENSE](LICENSE) file for details.
 
+**You may:**
+- Copy and use the software **only for personal, non-commercial purposes**.
+
+**You may NOT:**
+- Modify, adapt, or create derivative works.
+- Redistribute, sublicense, or sell the software.
+- Use it for any commercial activity.
